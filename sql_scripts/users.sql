@@ -7,7 +7,10 @@ CREATE TABLE
     hash text NOT NULL,
     salt text NOT NULL,
     display_name text NULL,
-    is_admin boolean NOT NULL
+    is_admin boolean NOT NULL,
+    account_status text NOT NULL,
+    referrer uuid NULL,
+    can_generate_referral_codes boolean NULL
   );
 
 ALTER TABLE

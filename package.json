@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "app.ts",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon app.ts"
+    "start": "node --env-file=.env .",
+    "dev": "node --disable-warning=ExperimentalWarning --watch --env-file=.env app.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +17,8 @@
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.5",
-    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
     "tsx": "^4.19.3",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   }
 }
