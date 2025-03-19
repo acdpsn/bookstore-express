@@ -1,24 +1,26 @@
 {
-  "name": "bookstore-express",
-  "version": "1.0.0",
-  "main": "app.ts",
-  "scripts": {
-    "start": "node --env-file=.env .",
-    "dev": "node --disable-warning=ExperimentalWarning --watch --env-file=.env app.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "",
-  "description": "",
-  "dependencies": {
-    "express": "^5.0.1",
-    "pg-promise": "^11.10.2"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.13.5",
-    "ts-node": "^10.9.2",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.2"
-  }
+	"name": "bookstore-express",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "app.ts",
+	"scripts": {
+		"start": "node --env-file=.env .",
+		"dev": "node --disable-warning=ExperimentalWarning --watch --env-file=.env app.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "",
+	"description": "",
+	"dependencies": {
+		"express": "^5.0.1",
+		"pg-promise": "^11.10.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/express": "^5.0.0",
+		"@types/node": "^22.13.5",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.19.3",
+		"typescript": "^5.8.2"
+	}
 }
