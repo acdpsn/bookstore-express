@@ -12,6 +12,7 @@
 	"license": "",
 	"description": "",
 	"dependencies": {
+		"argon2": "^0.41.1",
 		"express": "^5.0.1",
 		"pg-promise": "^11.10.2"
 	},

@@ -2,7 +2,7 @@ services:
   db:
     image: postgres:17.4-bookworm
     env_file:
-      - .local.env
+      - .env
     restart: always
     # set shared memory limit when using docker-compose
     shm_size: 128mb
@@ -22,8 +22,8 @@ services:
     # volumes:
       # - db_data:/var/lib/postgresql/data
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 6002:8080
+  # adminer:
+  #   image: adminer
+  #   restart: always
+  #   ports:
+  #     - 6002:8080
