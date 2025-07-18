@@ -12,17 +12,17 @@
 	"license": "",
 	"description": "",
 	"dependencies": {
-		"argon2": "^0.41.1",
+		"argon2": "^0.43.1",
 		"express": "^5.1.0",
-		"jose": "^6.0.10",
-		"pg-promise": "^11.13.0"
+		"jose": "^6.0.12",
+		"pg-promise": "^11.15.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"@types/express": "^5.0.1",
-		"@types/node": "^22.14.0",
+		"@biomejs/biome": "2.1.2",
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.0.14",
 		"ts-node": "^10.9.2",
-		"tsx": "^4.19.3",
+		"tsx": "^4.20.3",
 		"typescript": "^5.8.3"
 	}
 }
